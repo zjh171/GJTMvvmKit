@@ -10,5 +10,6 @@
 
 
 #import <GJTMvvmKit/GJTBaseViewController.h>
+#import <GJTMvvmKit/GJTNavigationController.h>
 
 #endif /* GJTMvvmKit_h */
