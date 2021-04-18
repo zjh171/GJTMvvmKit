@@ -6,7 +6,7 @@
 //
 
 #import "GJTViewController.h"
-#import <GJTMvvmKit/GJTMvvmKit.h>
+#import "GJTScrollViewControllerProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
