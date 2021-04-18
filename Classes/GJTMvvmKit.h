@@ -21,7 +21,7 @@
 #import <GJTMvvmKit/GJTScrollViewControllerProtocol.h>
 #import <GJTMvvmKit/GJTViewModelProtocol.h>
 #import <GJTMvvmKit/GJTViewLoadingProtocol.h>
-
+#import <GJTMvvmKit/GJTScrollViewController.h>
 
 
 #endif /* GJTMvvmKit_h */
