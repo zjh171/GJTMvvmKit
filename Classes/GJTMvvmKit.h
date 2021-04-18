@@ -14,14 +14,15 @@
 #import <GJTMvvmKit/GJTBaseView.h>
 
 #import <GJTMvvmKit/GJTViewModel.h>
-#import <GJTMvvmKit/GJTViewController.h>
 #import <GJTMvvmKit/GJTViewModelProtocol.h>
-#import <GJTMvvmKit/GJTViewControllerProtocol.h>
 #import <GJTMvvmKit/GJTViewModelLoadingProtocol.h>
-#import <GJTMvvmKit/GJTScrollViewControllerProtocol.h>
 #import <GJTMvvmKit/GJTViewModelProtocol.h>
-#import <GJTMvvmKit/GJTViewLoadingProtocol.h>
-#import <GJTMvvmKit/GJTScrollViewController.h>
 
+#import <GJTMvvmKit/GJTViewControllerProtocol.h>
+#import <GJTMvvmKit/GJTScrollViewController.h>
+#import <GJTMvvmKit/GJTViewController.h>
+#import <GJTMvvmKit/GJTScrollViewControllerProtocol.h>
+
+#import <GJTMvvmKit/GJTViewLoadingProtocol.h>
 
 #endif /* GJTMvvmKit_h */
