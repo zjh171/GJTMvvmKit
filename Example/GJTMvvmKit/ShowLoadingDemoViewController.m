@@ -1,33 +1,21 @@
 //
-//  GJTBaseViewController.m
-//  Gojito
+//  ShowLoadingDemoViewController.m
+//  GJTMvvmKit
 //
-//  Created by kyson on 2021/2/19.
+//  Created by kyson on 2021/4/18.
 //
 
-#import "GJTBaseViewController.h"
+#import "ShowLoadingDemoViewController.h"
 
-@interface GJTBaseViewController ()
+@interface ShowLoadingDemoViewController ()
 
 @end
 
-@implementation GJTBaseViewController
-
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-
-    }
-    return self;
-}
+@implementation ShowLoadingDemoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
-    [self setEdgesForExtendedLayout:UIRectEdgeNone];
-
 }
 
 /*

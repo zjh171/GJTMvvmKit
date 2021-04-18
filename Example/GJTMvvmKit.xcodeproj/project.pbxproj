@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B8F0A43FBE316AF41100415 /* libPods-GJTMvvmKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2A6AC324D5258F600ED17E /* libPods-GJTMvvmKit.a */; };
 		9655838825E1F947003CEB90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9655838725E1F947003CEB90 /* AppDelegate.m */; };
 		9655838B25E1F947003CEB90 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9655838A25E1F947003CEB90 /* SceneDelegate.m */; };
 		9655838E25E1F947003CEB90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9655838D25E1F947003CEB90 /* ViewController.m */; };
@@ -16,7 +17,11 @@
 		9655839925E1F949003CEB90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9655839825E1F949003CEB90 /* main.m */; };
 		965583A325E1F949003CEB90 /* GJTMvvmKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 965583A225E1F949003CEB90 /* GJTMvvmKitTests.m */; };
 		965583AE25E1F949003CEB90 /* GJTMvvmKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 965583AD25E1F949003CEB90 /* GJTMvvmKitUITests.m */; };
-		9E3D85D15E6E057746747874 /* Pods_GJTMvvmKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AC888BFA6E395DCFDDD2FB /* Pods_GJTMvvmKit.framework */; };
+		9696A029262913FE00767E0A /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9696A028262913FE00767E0A /* ViewModel.m */; };
+		96AEF7D6262BECEC001CBFF3 /* ShowLoadingDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AEF7D5262BECEC001CBFF3 /* ShowLoadingDemoViewController.m */; };
+		96AEF7DC262BED11001CBFF3 /* ShowLoadingDemoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AEF7DB262BED11001CBFF3 /* ShowLoadingDemoViewModel.m */; };
+		96AEF7E2262BF8F6001CBFF3 /* ShowLoadingDemoScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AEF7E1262BF8F6001CBFF3 /* ShowLoadingDemoScrollViewController.m */; };
+		96AEF7E8262BF912001CBFF3 /* ShowLoadingDemoScrollViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AEF7E7262BF912001CBFF3 /* ShowLoadingDemoScrollViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +60,17 @@
 		965583A925E1F949003CEB90 /* GJTMvvmKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJTMvvmKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		965583AD25E1F949003CEB90 /* GJTMvvmKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJTMvvmKitUITests.m; sourceTree = "<group>"; };
 		965583AF25E1F949003CEB90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96AC888BFA6E395DCFDDD2FB /* Pods_GJTMvvmKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJTMvvmKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9696A027262913FE00767E0A /* ViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		9696A028262913FE00767E0A /* ViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		96AEF7D4262BECEC001CBFF3 /* ShowLoadingDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowLoadingDemoViewController.h; sourceTree = "<group>"; };
+		96AEF7D5262BECEC001CBFF3 /* ShowLoadingDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowLoadingDemoViewController.m; sourceTree = "<group>"; };
+		96AEF7DA262BED11001CBFF3 /* ShowLoadingDemoViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowLoadingDemoViewModel.h; sourceTree = "<group>"; };
+		96AEF7DB262BED11001CBFF3 /* ShowLoadingDemoViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowLoadingDemoViewModel.m; sourceTree = "<group>"; };
+		96AEF7E0262BF8F6001CBFF3 /* ShowLoadingDemoScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowLoadingDemoScrollViewController.h; sourceTree = "<group>"; };
+		96AEF7E1262BF8F6001CBFF3 /* ShowLoadingDemoScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowLoadingDemoScrollViewController.m; sourceTree = "<group>"; };
+		96AEF7E6262BF912001CBFF3 /* ShowLoadingDemoScrollViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowLoadingDemoScrollViewModel.h; sourceTree = "<group>"; };
+		96AEF7E7262BF912001CBFF3 /* ShowLoadingDemoScrollViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowLoadingDemoScrollViewModel.m; sourceTree = "<group>"; };
+		BF2A6AC324D5258F600ED17E /* libPods-GJTMvvmKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GJTMvvmKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25C5B661BC4587462CC2E9C /* Pods-GJTMvvmKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJTMvvmKit.debug.xcconfig"; path = "Target Support Files/Pods-GJTMvvmKit/Pods-GJTMvvmKit.debug.xcconfig"; sourceTree = "<group>"; };
 		FF87D327E7AA65295EB428A9 /* Pods-GJTMvvmKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJTMvvmKit.release.xcconfig"; path = "Target Support Files/Pods-GJTMvvmKit/Pods-GJTMvvmKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E3D85D15E6E057746747874 /* Pods_GJTMvvmKit.framework in Frameworks */,
+				2B8F0A43FBE316AF41100415 /* libPods-GJTMvvmKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +104,7 @@
 		1B25C707716C93983BAB9A2A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				96AC888BFA6E395DCFDDD2FB /* Pods_GJTMvvmKit.framework */,
+				BF2A6AC324D5258F600ED17E /* libPods-GJTMvvmKit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,7 +115,6 @@
 				F25C5B661BC4587462CC2E9C /* Pods-GJTMvvmKit.debug.xcconfig */,
 				FF87D327E7AA65295EB428A9 /* Pods-GJTMvvmKit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +154,16 @@
 				9655839425E1F949003CEB90 /* LaunchScreen.storyboard */,
 				9655839725E1F949003CEB90 /* Info.plist */,
 				9655839825E1F949003CEB90 /* main.m */,
+				9696A027262913FE00767E0A /* ViewModel.h */,
+				9696A028262913FE00767E0A /* ViewModel.m */,
+				96AEF7D4262BECEC001CBFF3 /* ShowLoadingDemoViewController.h */,
+				96AEF7D5262BECEC001CBFF3 /* ShowLoadingDemoViewController.m */,
+				96AEF7DA262BED11001CBFF3 /* ShowLoadingDemoViewModel.h */,
+				96AEF7DB262BED11001CBFF3 /* ShowLoadingDemoViewModel.m */,
+				96AEF7E0262BF8F6001CBFF3 /* ShowLoadingDemoScrollViewController.h */,
+				96AEF7E1262BF8F6001CBFF3 /* ShowLoadingDemoScrollViewController.m */,
+				96AEF7E6262BF912001CBFF3 /* ShowLoadingDemoScrollViewModel.h */,
+				96AEF7E7262BF912001CBFF3 /* ShowLoadingDemoScrollViewModel.m */,
 			);
 			path = GJTMvvmKit;
 			sourceTree = "<group>";
@@ -173,6 +197,7 @@
 				9655837F25E1F947003CEB90 /* Sources */,
 				9655838025E1F947003CEB90 /* Frameworks */,
 				9655838125E1F947003CEB90 /* Resources */,
+				5FA88772800472C99FF06B18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,6 +335,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5FA88772800472C99FF06B18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GJTMvvmKit/Pods-GJTMvvmKit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GJTMvvmKit/Pods-GJTMvvmKit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GJTMvvmKit/Pods-GJTMvvmKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -318,7 +360,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9655838E25E1F947003CEB90 /* ViewController.m in Sources */,
+				96AEF7E8262BF912001CBFF3 /* ShowLoadingDemoScrollViewModel.m in Sources */,
 				9655838825E1F947003CEB90 /* AppDelegate.m in Sources */,
+				96AEF7E2262BF8F6001CBFF3 /* ShowLoadingDemoScrollViewController.m in Sources */,
+				9696A029262913FE00767E0A /* ViewModel.m in Sources */,
+				96AEF7DC262BED11001CBFF3 /* ShowLoadingDemoViewModel.m in Sources */,
+				96AEF7D6262BECEC001CBFF3 /* ShowLoadingDemoViewController.m in Sources */,
 				9655839925E1F949003CEB90 /* main.m in Sources */,
 				9655838B25E1F947003CEB90 /* SceneDelegate.m in Sources */,
 			);
@@ -426,7 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -479,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

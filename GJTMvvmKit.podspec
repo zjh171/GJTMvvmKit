@@ -137,5 +137,6 @@ Pod::Spec.new do |spec|
   spec.dependency "Masonry"
   spec.dependency "GJTAdditionKit"
   spec.dependency "GJTControlsKit"
-  
+  spec.dependency "MJRefresh"
+
 end

@@ -1,3 +1,40 @@
-PODFILE CHECKSUM: 0b7c2fbbb26643869d0c43dcca23650d288ba396
+PODS:
+  - GJTAdditionKit (0.0.9)
+  - GJTControlsKit (0.0.8):
+    - GJTAdditionKit
+  - GJTMvvmKit (0.0.2):
+    - GJTAdditionKit
+    - GJTControlsKit
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+  - Masonry (1.1.0)
+  - MJRefresh (3.5.0)
+  - ReactiveObjC (3.1.1)
+
+DEPENDENCIES:
+  - GJTMvvmKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - GJTAdditionKit
+    - GJTControlsKit
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  GJTMvvmKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GJTAdditionKit: 0921c8a8124891fde5c9d5395f7f47216d28b42e
+  GJTControlsKit: daf2dc8beec6fcb12a158c85b425af1a4512d4a1
+  GJTMvvmKit: f9996836aa760030a177471faca4213f59bd5441
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+
+PODFILE CHECKSUM: e73326e0ab005bf23603603ff8464ee4c246b3a4
 
 COCOAPODS: 1.10.1

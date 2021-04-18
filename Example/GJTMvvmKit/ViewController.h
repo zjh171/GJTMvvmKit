@@ -6,8 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GJTMvvmKit/GJTMvvmKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : GJTViewController
 
 
 @end
